@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+.height-center {
+  height: 60vh;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  transition: width 0.3s;
+}
+
+.toggled {
+  width: 80px;
+}
+
+.nav-item:hover {
+  background-color: #FFC107;
+  transition: 0.5s;
+  border-radius: 7px;
+}
+
+.active {
+  background-color: #FFC107;
+}
+
+.img-thumbnail {
+  min-width: 250px;
+}
+
+.logged-user {
+  width:35px; 
+  height:35px; 
+  font-size:1.3em;
+}
+
+.extra-height-space {
+  height:55px;
+}
+
+p a {
+  color:#DC3545;
+}
+
+.avatar {
+  background-color: #FFC107;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  display: inline-block;
+}
